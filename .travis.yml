@@ -1,6 +1,6 @@
-language: java  
-jdk:  
-  - openjdk6  
-
-script:  
-  - jdk6 ArithmeticTest1.java
+language: python
+python:
+  - "3.5"
+# command to run tests
+script:
+  - python3  ArithmeticTest1.py
